@@ -1,8 +1,8 @@
 /*   STEP 1   */
 export const leagueID = "1124814969355915264"; // your league ID
 export const leagueName = "The Centennials"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dues = 60; // (optional) used in template constitution page
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
@@ -22,7 +22,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID": "730857805749268480"
+      "managerID": "730857805749268480",
       "name": "Paul",
       "bio": "commish",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -37,7 +37,7 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID": "730861377564065792"
+      "managerID": "730861377564065792",
       "name": "MattCass,
       "bio": "might leave the league",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -53,7 +53,7 @@ export const managers = [
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Lewski",
-      "managerID": "730864039411970048"
+      "managerID": "730864039411970048",
       "bio": "the quiet one",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
@@ -68,7 +68,7 @@ export const managers = [
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "bosz",
-      "managerID": "733397095347806208"
+      "managerID": "733397095347806208",
       "bio": "mike's friend from college",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
@@ -83,7 +83,7 @@ export const managers = [
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "bazzini",
-      "managerID": "734874139105599488"
+      "managerID": "734874139105599488",
       "bio": "the hot one",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
@@ -98,7 +98,7 @@ export const managers = [
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "pilch",
-      "managerID": "735273722528796672"
+      "managerID": "735273722528796672",
       "bio": "He lives in chicago",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
@@ -113,7 +113,7 @@ export const managers = [
     {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "novelli",
-      "managerID": "735298846657253376"
+      "managerID": "735298846657253376",
       "bio": "actually doing really well in his brother's league",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
@@ -128,7 +128,7 @@ export const managers = [
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "michael",
-      "managerID": "735889334720630784"
+      "managerID": "735889334720630784",
       "bio": "trying to have a baby",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
@@ -143,7 +143,7 @@ export const managers = [
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "ryan",
-      "managerID": "1126975113368395776"
+      "managerID": "1126975113368395776",
       "bio": "lives on a farm",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
@@ -158,7 +158,7 @@ export const managers = [
     {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "alex",
-      "managerID": "1127049562796974080"
+      "managerID": "1127049562796974080",
       "bio": "the new girl",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "rival": {
